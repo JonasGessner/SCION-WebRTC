@@ -1,0 +1,1206 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B05B2912611F50E008B0280 /* VideoChatSesssion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B2902611F50E008B0280 /* VideoChatSesssion.swift */; };
+		6B05B2932611F6F6008B0280 /* VideoChatSesssion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B2902611F50E008B0280 /* VideoChatSesssion.swift */; };
+		6B05B29F26147871008B0280 /* UDPRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B29E26147871008B0280 /* UDPRelay.swift */; };
+		6B05B2A026147871008B0280 /* UDPRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B29E26147871008B0280 /* UDPRelay.swift */; };
+		6B05B2A326147879008B0280 /* SCIONRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B2A226147879008B0280 /* SCIONRelay.swift */; };
+		6B05B2A426147879008B0280 /* SCIONRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B2A226147879008B0280 /* SCIONRelay.swift */; };
+		6B05B2A7261478B9008B0280 /* Relay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B2A6261478B9008B0280 /* Relay.swift */; };
+		6B05B2A8261478B9008B0280 /* Relay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B2A6261478B9008B0280 /* Relay.swift */; };
+		6B05B2AC2614A35B008B0280 /* NetworkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B2AB2614A35B008B0280 /* NetworkExtensions.swift */; };
+		6B05B2AD2614A35B008B0280 /* NetworkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B2AB2614A35B008B0280 /* NetworkExtensions.swift */; };
+		6B05B2B12615CF33008B0280 /* CombineExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B2B02615CF33008B0280 /* CombineExtensions.swift */; };
+		6B05B2B22615CF33008B0280 /* CombineExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05B2B02615CF33008B0280 /* CombineExtensions.swift */; };
+		6B1F14062680B86300D54668 /* WebRTCVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1F14052680B86300D54668 /* WebRTCVideoView.swift */; };
+		6B1F14072680B86300D54668 /* WebRTCVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1F14052680B86300D54668 /* WebRTCVideoView.swift */; };
+		6B1F140E2680CBEE00D54668 /* rtcplib.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1F140D2680CBEE00D54668 /* rtcplib.m */; };
+		6B1F140F2680CBEE00D54668 /* rtcplib.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1F140D2680CBEE00D54668 /* rtcplib.m */; };
+		6B1F14102680EDE500D54668 /* VideoCallStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDEAA6E26777090005464A3 /* VideoCallStatsView.swift */; };
+		6B3F22D325FFA96900F26A2D /* SCIONTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F22D225FFA96900F26A2D /* SCIONTestApp.swift */; };
+		6B3F22D725FFA96B00F26A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F22D625FFA96B00F26A2D /* Assets.xcassets */; };
+		6B3F22DA25FFA96B00F26A2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F22D925FFA96B00F26A2D /* Preview Assets.xcassets */; };
+		6B3F234125FFD3D300F26A2D /* ChatViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F22E025FFA99900F26A2D /* ChatViews.swift */; };
+		6B3F234925FFD68A00F26A2D /* certs in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F234825FFD68A00F26A2D /* certs */; };
+		6B3F234B25FFED3D00F26A2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F234A25FFED3D00F26A2D /* ContentView.swift */; };
+		6B9167D726261D7A0046B1E3 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9167D626261D7A0046B1E3 /* ChatModel.swift */; };
+		6B9167D826261D7A0046B1E3 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9167D626261D7A0046B1E3 /* ChatModel.swift */; };
+		6B9536BE26245C0800336076 /* SCIONLabSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9536BD26245C0800336076 /* SCIONLabSupport.swift */; };
+		6B9536BF26245C0800336076 /* SCIONLabSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9536BD26245C0800336076 /* SCIONLabSupport.swift */; };
+		6B9732D226E2BD85004AB295 /* Caminandes1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6B9732D126E2BD85004AB295 /* Caminandes1.mp4 */; };
+		6B9732D326E2BD85004AB295 /* Caminandes1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6B9732D126E2BD85004AB295 /* Caminandes1.mp4 */; };
+		6B9732D526E2BD97004AB295 /* Caminandes3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6B9732D426E2BD97004AB295 /* Caminandes3.mp4 */; };
+		6B9732D626E2BD97004AB295 /* Caminandes3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6B9732D426E2BD97004AB295 /* Caminandes3.mp4 */; };
+		6BA1D6492603E80E0069BDDF /* VideoCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D6482603E80E0069BDDF /* VideoCallView.swift */; };
+		6BA1D6552603E86C0069BDDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA1D6542603E86C0069BDDF /* Assets.xcassets */; };
+		6BA1D6582603E86C0069BDDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA1D6572603E86C0069BDDF /* Preview Assets.xcassets */; };
+		6BA1D6602603E88D0069BDDF /* ChatViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F22E025FFA99900F26A2D /* ChatViews.swift */; };
+		6BA1D6622603E88D0069BDDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F234A25FFED3D00F26A2D /* ContentView.swift */; };
+		6BA1D6632603E88D0069BDDF /* VideoCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D6482603E80E0069BDDF /* VideoCallView.swift */; };
+		6BA1D6642603E88D0069BDDF /* SCIONTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F22D225FFA96900F26A2D /* SCIONTestApp.swift */; };
+		6BA1D6662603E8900069BDDF /* certs in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F234825FFD68A00F26A2D /* certs */; };
+		6BA1D6862604E2EB0069BDDF /* SignalingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D6852604E2EB0069BDDF /* SignalingClient.swift */; };
+		6BA1D6872604E2EB0069BDDF /* SignalingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D6852604E2EB0069BDDF /* SignalingClient.swift */; };
+		6BA1D68A2604E3E50069BDDF /* NativeWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D6892604E3E50069BDDF /* NativeWebSocket.swift */; };
+		6BA1D68B2604E3E50069BDDF /* NativeWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D6892604E3E50069BDDF /* NativeWebSocket.swift */; };
+		6BA1D68E2604E4250069BDDF /* WebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D68D2604E4250069BDDF /* WebSocketProvider.swift */; };
+		6BA1D68F2604E4250069BDDF /* WebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D68D2604E4250069BDDF /* WebSocketProvider.swift */; };
+		6BA1D6942604E4590069BDDF /* SignalingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D6932604E4580069BDDF /* SignalingMessage.swift */; };
+		6BA1D6952604E4590069BDDF /* SignalingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D6932604E4580069BDDF /* SignalingMessage.swift */; };
+		6BA1D69C2604E4840069BDDF /* RTCStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D6992604E4840069BDDF /* RTCStates.swift */; };
+		6BA1D69D2604E4840069BDDF /* RTCStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D6992604E4840069BDDF /* RTCStates.swift */; };
+		6BA1D69E2604E4840069BDDF /* SessionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D69A2604E4840069BDDF /* SessionDescription.swift */; };
+		6BA1D69F2604E4840069BDDF /* SessionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D69A2604E4840069BDDF /* SessionDescription.swift */; };
+		6BA1D6A02604E4840069BDDF /* IceCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D69B2604E4840069BDDF /* IceCandidate.swift */; };
+		6BA1D6A12604E4840069BDDF /* IceCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1D69B2604E4840069BDDF /* IceCandidate.swift */; };
+		6BA903DD26065D0E00C18FA0 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA903DC26065D0E00C18FA0 /* WebRTCClient.swift */; };
+		6BA903DE26065D0E00C18FA0 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA903DC26065D0E00C18FA0 /* WebRTCClient.swift */; };
+		6BB83A1E26304E860018382E /* WebRTCStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB83A1D26304E860018382E /* WebRTCStats.swift */; };
+		6BB83A1F26304E860018382E /* WebRTCStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB83A1D26304E860018382E /* WebRTCStats.swift */; };
+		6BB83A2C2632D7C00018382E /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB83A2B2632D7C00018382E /* Options.swift */; };
+		6BB83A2D2632D7C00018382E /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB83A2B2632D7C00018382E /* Options.swift */; };
+		6BBE63B626DBF6A200B3A314 /* white.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6BBE63B526DBF6A200B3A314 /* white.mov */; };
+		6BBE63B726DBF6A200B3A314 /* white.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6BBE63B526DBF6A200B3A314 /* white.mov */; };
+		6BBF4E2A26493C0F009BF3F5 /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E2926493C0F009BF3F5 /* Setup.swift */; };
+		6BBF4E2C26493CDB009BF3F5 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E2B26493CDB009BF3F5 /* Connection.swift */; };
+		6BBF4E2D26493CDB009BF3F5 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E2B26493CDB009BF3F5 /* Connection.swift */; };
+		6BBF4E2F26493CE8009BF3F5 /* PathProcessors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E2E26493CE8009BF3F5 /* PathProcessors.swift */; };
+		6BBF4E3026493CE8009BF3F5 /* PathProcessors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E2E26493CE8009BF3F5 /* PathProcessors.swift */; };
+		6BBF4E3226493CF2009BF3F5 /* ReceiveExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E3126493CF2009BF3F5 /* ReceiveExtensions.swift */; };
+		6BBF4E3326493CF2009BF3F5 /* ReceiveExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E3126493CF2009BF3F5 /* ReceiveExtensions.swift */; };
+		6BBF4E3526493D7A009BF3F5 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E3426493D7A009BF3F5 /* Address.swift */; };
+		6BBF4E3626493D7A009BF3F5 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E3426493D7A009BF3F5 /* Address.swift */; };
+		6BBF4E3826493D94009BF3F5 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E3726493D94009BF3F5 /* Path.swift */; };
+		6BBF4E3926493D94009BF3F5 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E3726493D94009BF3F5 /* Path.swift */; };
+		6BBF4E3B26493DAC009BF3F5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E3A26493DAC009BF3F5 /* Message.swift */; };
+		6BBF4E3C26493DAC009BF3F5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E3A26493DAC009BF3F5 /* Message.swift */; };
+		6BBF4E3D26493E36009BF3F5 /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E2926493C0F009BF3F5 /* Setup.swift */; };
+		6BBF4E452649C087009BF3F5 /* SCIONDarwin.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBF4E422649C087009BF3F5 /* SCIONDarwin.xcframework */; };
+		6BBF4E462649C087009BF3F5 /* SCIONDarwin.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBF4E422649C087009BF3F5 /* SCIONDarwin.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6BBF4E482649C08F009BF3F5 /* SCIONDarwin.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBF4E422649C087009BF3F5 /* SCIONDarwin.xcframework */; };
+		6BBF4E492649C08F009BF3F5 /* SCIONDarwin.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBF4E422649C087009BF3F5 /* SCIONDarwin.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6BBF4E65264AE81B009BF3F5 /* WebRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBF4E59264ABC32009BF3F5 /* WebRTC.xcframework */; };
+		6BBF4E66264AE81B009BF3F5 /* WebRTC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBF4E59264ABC32009BF3F5 /* WebRTC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6BBF4E6A264D5F98009BF3F5 /* CallQualityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E69264D5F98009BF3F5 /* CallQualityMonitor.swift */; };
+		6BBF4E6B264D5F9C009BF3F5 /* CallQualityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4E69264D5F98009BF3F5 /* CallQualityMonitor.swift */; };
+		6BC05BF12671607700E730DD /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6BC05BF02671607700E730DD /* sound.wav */; };
+		6BC05BF22671607700E730DD /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6BC05BF02671607700E730DD /* sound.wav */; };
+		6BC31E90265681860085D2AC /* SCIONSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC31E8F265681860085D2AC /* SCIONSetupView.swift */; };
+		6BC31E91265681860085D2AC /* SCIONSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC31E8F265681860085D2AC /* SCIONSetupView.swift */; };
+		6BC50BF5265014B70004DB1A /* sound-short.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6BC50BF4265014B70004DB1A /* sound-short.wav */; };
+		6BC50BF6265014B70004DB1A /* sound-short.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6BC50BF4265014B70004DB1A /* sound-short.wav */; };
+		6BC50C392652B07F0004DB1A /* CombineExt in Frameworks */ = {isa = PBXBuildFile; productRef = 6BC50C382652B07F0004DB1A /* CombineExt */; };
+		6BC50C3B2652B0850004DB1A /* CombineExt in Frameworks */ = {isa = PBXBuildFile; productRef = 6BC50C3A2652B0850004DB1A /* CombineExt */; };
+		6BD4E14926380F4600C9D019 /* SCION.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F22E325FFA99900F26A2D /* SCION.swift */; };
+		6BD4E14C26380F4600C9D019 /* SCION.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F22E325FFA99900F26A2D /* SCION.swift */; };
+		6BD89A3126D8F73A00CEB22A /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD89A3026D8F73A00CEB22A /* Tests.swift */; };
+		6BD89A3226D8F73A00CEB22A /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD89A3026D8F73A00CEB22A /* Tests.swift */; };
+		6BDE2E8726D8F3E000941116 /* SCIONTest_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE2E8626D8F3E000941116 /* SCIONTest_macOSTests.swift */; };
+		6BDEAA6F26777090005464A3 /* VideoCallStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDEAA6E26777090005464A3 /* VideoCallStatsView.swift */; };
+		6BDEAA702677E62E005464A3 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCD990426714931003BB1B1 /* WebRTC.framework */; };
+		6BDEAA712677E62E005464A3 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCD990426714931003BB1B1 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6BDEAA8E267BBD48005464A3 /* CallQualityMonitoringReceiveExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDEAA8D267BBD48005464A3 /* CallQualityMonitoringReceiveExtension.swift */; };
+		6BDEAA8F267BBD48005464A3 /* CallQualityMonitoringReceiveExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDEAA8D267BBD48005464A3 /* CallQualityMonitoringReceiveExtension.swift */; };
+		6BE7DC862704FACC00A91FD8 /* BigBuckBunny1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6BE7DC832704FACC00A91FD8 /* BigBuckBunny1.mp4 */; };
+		6BE7DC872704FACC00A91FD8 /* BigBuckBunny1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6BE7DC832704FACC00A91FD8 /* BigBuckBunny1.mp4 */; };
+		6BE7DC882704FACC00A91FD8 /* Caminandes2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6BE7DC842704FACC00A91FD8 /* Caminandes2.mp4 */; };
+		6BE7DC892704FACC00A91FD8 /* Caminandes2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6BE7DC842704FACC00A91FD8 /* Caminandes2.mp4 */; };
+		6BE7DC8A2704FACC00A91FD8 /* BigBuckBunny2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6BE7DC852704FACC00A91FD8 /* BigBuckBunny2.mp4 */; };
+		6BE7DC8B2704FACC00A91FD8 /* BigBuckBunny2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6BE7DC852704FACC00A91FD8 /* BigBuckBunny2.mp4 */; };
+		6BF1CAF42704F5F7007AFF3D /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF1CAF32704F5F7007AFF3D /* Listener.swift */; };
+		6BF1CAF52704F629007AFF3D /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF1CAF32704F5F7007AFF3D /* Listener.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BDE2E8926D8F3E000941116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BC2AF8725FB763400F05658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BA1D64D2603E86C0069BDDF;
+			remoteInfo = "SCIONTest-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6BBF4E472649C087009BF3F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6BBF4E462649C087009BF3F5 /* SCIONDarwin.xcframework in Embed Frameworks */,
+				6BDEAA712677E62E005464A3 /* WebRTC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBF4E4C2649C08F009BF3F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6BBF4E66264AE81B009BF3F5 /* WebRTC.xcframework in Embed Frameworks */,
+				6BBF4E492649C08F009BF3F5 /* SCIONDarwin.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B05B2902611F50E008B0280 /* VideoChatSesssion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatSesssion.swift; sourceTree = "<group>"; };
+		6B05B29E26147871008B0280 /* UDPRelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPRelay.swift; sourceTree = "<group>"; };
+		6B05B2A226147879008B0280 /* SCIONRelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCIONRelay.swift; sourceTree = "<group>"; };
+		6B05B2A6261478B9008B0280 /* Relay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relay.swift; sourceTree = "<group>"; };
+		6B05B2AB2614A35B008B0280 /* NetworkExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExtensions.swift; sourceTree = "<group>"; };
+		6B05B2B02615CF33008B0280 /* CombineExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineExtensions.swift; sourceTree = "<group>"; };
+		6B1F14052680B86300D54668 /* WebRTCVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCVideoView.swift; sourceTree = "<group>"; };
+		6B1F140C2680C62500D54668 /* rtcplib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rtcplib.h; sourceTree = "<group>"; };
+		6B1F140D2680CBEE00D54668 /* rtcplib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rtcplib.m; sourceTree = "<group>"; };
+		6B3F22D025FFA96900F26A2D /* SCIONTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCIONTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B3F22D225FFA96900F26A2D /* SCIONTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCIONTestApp.swift; sourceTree = "<group>"; };
+		6B3F22D625FFA96B00F26A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B3F22D925FFA96B00F26A2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B3F22DB25FFA96B00F26A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3F22E025FFA99900F26A2D /* ChatViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViews.swift; sourceTree = "<group>"; };
+		6B3F22E125FFA99900F26A2D /* SCIONTest-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCIONTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		6B3F22E325FFA99900F26A2D /* SCION.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCION.swift; sourceTree = "<group>"; };
+		6B3F234825FFD68A00F26A2D /* certs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = certs; sourceTree = "<group>"; };
+		6B3F234A25FFED3D00F26A2D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B9167D626261D7A0046B1E3 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		6B9536BD26245C0800336076 /* SCIONLabSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCIONLabSupport.swift; sourceTree = "<group>"; };
+		6B9732D126E2BD85004AB295 /* Caminandes1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Caminandes1.mp4; sourceTree = "<group>"; };
+		6B9732D426E2BD97004AB295 /* Caminandes3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Caminandes3.mp4; sourceTree = "<group>"; };
+		6BA1D6482603E80E0069BDDF /* VideoCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallView.swift; sourceTree = "<group>"; };
+		6BA1D64E2603E86C0069BDDF /* SCIONTest-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SCIONTest-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA1D6542603E86C0069BDDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BA1D6572603E86C0069BDDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BA1D6592603E86C0069BDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA1D65A2603E86C0069BDDF /* SCIONTest_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SCIONTest_macOS.entitlements; sourceTree = "<group>"; };
+		6BA1D6852604E2EB0069BDDF /* SignalingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalingClient.swift; sourceTree = "<group>"; };
+		6BA1D6892604E3E50069BDDF /* NativeWebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeWebSocket.swift; sourceTree = "<group>"; };
+		6BA1D68D2604E4250069BDDF /* WebSocketProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketProvider.swift; sourceTree = "<group>"; };
+		6BA1D6932604E4580069BDDF /* SignalingMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalingMessage.swift; sourceTree = "<group>"; };
+		6BA1D6992604E4840069BDDF /* RTCStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCStates.swift; sourceTree = "<group>"; };
+		6BA1D69A2604E4840069BDDF /* SessionDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDescription.swift; sourceTree = "<group>"; };
+		6BA1D69B2604E4840069BDDF /* IceCandidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCandidate.swift; sourceTree = "<group>"; };
+		6BA903DC26065D0E00C18FA0 /* WebRTCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
+		6BB83A1D26304E860018382E /* WebRTCStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCStats.swift; sourceTree = "<group>"; };
+		6BB83A2B2632D7C00018382E /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		6BBE63B526DBF6A200B3A314 /* white.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = white.mov; sourceTree = "<group>"; };
+		6BBF4E2926493C0F009BF3F5 /* Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
+		6BBF4E2B26493CDB009BF3F5 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		6BBF4E2E26493CE8009BF3F5 /* PathProcessors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathProcessors.swift; sourceTree = "<group>"; };
+		6BBF4E3126493CF2009BF3F5 /* ReceiveExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveExtensions.swift; sourceTree = "<group>"; };
+		6BBF4E3426493D7A009BF3F5 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		6BBF4E3726493D94009BF3F5 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		6BBF4E3A26493DAC009BF3F5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6BBF4E422649C087009BF3F5 /* SCIONDarwin.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SCIONDarwin.xcframework; path = Vendor/SCIONDarwin.xcframework; sourceTree = "<group>"; };
+		6BBF4E59264ABC32009BF3F5 /* WebRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebRTC.xcframework; path = Vendor/WebRTC.xcframework; sourceTree = "<group>"; };
+		6BBF4E69264D5F98009BF3F5 /* CallQualityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallQualityMonitor.swift; sourceTree = "<group>"; };
+		6BC05BF02671607700E730DD /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
+		6BC31E8F265681860085D2AC /* SCIONSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCIONSetupView.swift; sourceTree = "<group>"; };
+		6BC50BF4265014B70004DB1A /* sound-short.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sound-short.wav"; sourceTree = "<group>"; };
+		6BCD990426714931003BB1B1 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = "Vendor/WebRTC.xcframework/macos-arm64_x86_64/WebRTC.framework"; sourceTree = "<group>"; };
+		6BD89A3026D8F73A00CEB22A /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6BDE2E8426D8F3E000941116 /* SCIONTest-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SCIONTest-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDE2E8626D8F3E000941116 /* SCIONTest_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCIONTest_macOSTests.swift; sourceTree = "<group>"; };
+		6BDE2E8826D8F3E000941116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BDEAA6E26777090005464A3 /* VideoCallStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallStatsView.swift; sourceTree = "<group>"; };
+		6BDEAA8D267BBD48005464A3 /* CallQualityMonitoringReceiveExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallQualityMonitoringReceiveExtension.swift; sourceTree = "<group>"; };
+		6BDEAA93267BC760005464A3 /* _SCIONDarwinMacFat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = _SCIONDarwinMacFat.a; path = "Vendor/SCIONDarwin.xcframework/macos-arm64_x86_64/_SCIONDarwinMacFat.a"; sourceTree = "<group>"; };
+		6BE7DC832704FACC00A91FD8 /* BigBuckBunny1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BigBuckBunny1.mp4; sourceTree = "<group>"; };
+		6BE7DC842704FACC00A91FD8 /* Caminandes2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Caminandes2.mp4; sourceTree = "<group>"; };
+		6BE7DC852704FACC00A91FD8 /* BigBuckBunny2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BigBuckBunny2.mp4; sourceTree = "<group>"; };
+		6BF1CAF32704F5F7007AFF3D /* Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B3F22CD25FFA96900F26A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBF4E65264AE81B009BF3F5 /* WebRTC.xcframework in Frameworks */,
+				6BC50C3B2652B0850004DB1A /* CombineExt in Frameworks */,
+				6BBF4E482649C08F009BF3F5 /* SCIONDarwin.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA1D64B2603E86C0069BDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC50C392652B07F0004DB1A /* CombineExt in Frameworks */,
+				6BBF4E452649C087009BF3F5 /* SCIONDarwin.xcframework in Frameworks */,
+				6BDEAA702677E62E005464A3 /* WebRTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDE2E8126D8F3E000941116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B05B2B62616231A008B0280 /* Relay */ = {
+			isa = PBXGroup;
+			children = (
+				6B05B2A6261478B9008B0280 /* Relay.swift */,
+				6B05B2A226147879008B0280 /* SCIONRelay.swift */,
+				6B05B29E26147871008B0280 /* UDPRelay.swift */,
+			);
+			path = Relay;
+			sourceTree = "<group>";
+		};
+		6B34C666268A1A74001CEF04 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6B05B2AB2614A35B008B0280 /* NetworkExtensions.swift */,
+				6B05B2B02615CF33008B0280 /* CombineExtensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6B34C667268A1A91001CEF04 /* Video-Call */ = {
+			isa = PBXGroup;
+			children = (
+				6B34C66F268A1F24001CEF04 /* SCION */,
+				6B34C66D268A1EE9001CEF04 /* Signaling */,
+				6BA1D6982604E4840069BDDF /* Extensions */,
+				6B05B2B62616231A008B0280 /* Relay */,
+				6B34C66A268A1AD0001CEF04 /* Support */,
+				6B34C669268A1AB3001CEF04 /* UI */,
+				6B34C668268A1A9C001CEF04 /* Model-Controller */,
+			);
+			path = "Video-Call";
+			sourceTree = "<group>";
+		};
+		6B34C668268A1A9C001CEF04 /* Model-Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B05B2902611F50E008B0280 /* VideoChatSesssion.swift */,
+				6BB83A1D26304E860018382E /* WebRTCStats.swift */,
+				6BA903DC26065D0E00C18FA0 /* WebRTCClient.swift */,
+			);
+			path = "Model-Controller";
+			sourceTree = "<group>";
+		};
+		6B34C669268A1AB3001CEF04 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6BDEAA6E26777090005464A3 /* VideoCallStatsView.swift */,
+				6BA1D6482603E80E0069BDDF /* VideoCallView.swift */,
+				6B1F14052680B86300D54668 /* WebRTCVideoView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6B34C66A268A1AD0001CEF04 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6BBE63B526DBF6A200B3A314 /* white.mov */,
+				6BE7DC852704FACC00A91FD8 /* BigBuckBunny2.mp4 */,
+				6BE7DC832704FACC00A91FD8 /* BigBuckBunny1.mp4 */,
+				6BE7DC842704FACC00A91FD8 /* Caminandes2.mp4 */,
+				6B9732D126E2BD85004AB295 /* Caminandes1.mp4 */,
+				6B9732D426E2BD97004AB295 /* Caminandes3.mp4 */,
+				6B1F140C2680C62500D54668 /* rtcplib.h */,
+				6B1F140D2680CBEE00D54668 /* rtcplib.m */,
+				6BC05BF02671607700E730DD /* sound.wav */,
+				6BC50BF4265014B70004DB1A /* sound-short.wav */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		6B34C66B268A1EAB001CEF04 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				6B3F22E025FFA99900F26A2D /* ChatViews.swift */,
+				6B9167D626261D7A0046B1E3 /* ChatModel.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		6B34C66D268A1EE9001CEF04 /* Signaling */ = {
+			isa = PBXGroup;
+			children = (
+				6BA1D6912604E42B0069BDDF /* WebSocket */,
+				6BA1D6852604E2EB0069BDDF /* SignalingClient.swift */,
+				6BA1D6932604E4580069BDDF /* SignalingMessage.swift */,
+			);
+			path = Signaling;
+			sourceTree = "<group>";
+		};
+		6B34C66F268A1F24001CEF04 /* SCION */ = {
+			isa = PBXGroup;
+			children = (
+				6BDEAA8D267BBD48005464A3 /* CallQualityMonitoringReceiveExtension.swift */,
+				6BBF4E69264D5F98009BF3F5 /* CallQualityMonitor.swift */,
+			);
+			path = SCION;
+			sourceTree = "<group>";
+		};
+		6B34C670268A1F3D001CEF04 /* SCIONLab */ = {
+			isa = PBXGroup;
+			children = (
+				6BC31E8F265681860085D2AC /* SCIONSetupView.swift */,
+				6B9536BD26245C0800336076 /* SCIONLabSupport.swift */,
+			);
+			path = SCIONLab;
+			sourceTree = "<group>";
+		};
+		6B3F22D125FFA96900F26A2D /* SCIONTest */ = {
+			isa = PBXGroup;
+			children = (
+				6B3F22E125FFA99900F26A2D /* SCIONTest-Bridging-Header.h */,
+				6BB83A2B2632D7C00018382E /* Options.swift */,
+				6BD89A3026D8F73A00CEB22A /* Tests.swift */,
+				6B3F234A25FFED3D00F26A2D /* ContentView.swift */,
+				6B3F22D225FFA96900F26A2D /* SCIONTestApp.swift */,
+				6B34C66B268A1EAB001CEF04 /* Chat */,
+				6B34C667268A1A91001CEF04 /* Video-Call */,
+				6B34C666268A1A74001CEF04 /* Helpers */,
+				6B34C670268A1F3D001CEF04 /* SCIONLab */,
+				6BBF4E2826493C05009BF3F5 /* SCION */,
+				6B3F234825FFD68A00F26A2D /* certs */,
+				6B3F22D625FFA96B00F26A2D /* Assets.xcassets */,
+				6B3F22DB25FFA96B00F26A2D /* Info.plist */,
+				6B3F22D825FFA96B00F26A2D /* Preview Content */,
+			);
+			path = SCIONTest;
+			sourceTree = "<group>";
+		};
+		6B3F22D825FFA96B00F26A2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B3F22D925FFA96B00F26A2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BA1D64F2603E86C0069BDDF /* SCIONTest-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6BA1D6542603E86C0069BDDF /* Assets.xcassets */,
+				6BA1D6592603E86C0069BDDF /* Info.plist */,
+				6BA1D65A2603E86C0069BDDF /* SCIONTest_macOS.entitlements */,
+				6BA1D6562603E86C0069BDDF /* Preview Content */,
+			);
+			path = "SCIONTest-macOS";
+			sourceTree = "<group>";
+		};
+		6BA1D6562603E86C0069BDDF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6BA1D6572603E86C0069BDDF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BA1D6912604E42B0069BDDF /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				6BA1D6892604E3E50069BDDF /* NativeWebSocket.swift */,
+				6BA1D68D2604E4250069BDDF /* WebSocketProvider.swift */,
+			);
+			path = WebSocket;
+			sourceTree = "<group>";
+		};
+		6BA1D6982604E4840069BDDF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6BA1D6992604E4840069BDDF /* RTCStates.swift */,
+				6BA1D69A2604E4840069BDDF /* SessionDescription.swift */,
+				6BA1D69B2604E4840069BDDF /* IceCandidate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6BBF4E2826493C05009BF3F5 /* SCION */ = {
+			isa = PBXGroup;
+			children = (
+				6B3F22E325FFA99900F26A2D /* SCION.swift */,
+				6BBF4E2926493C0F009BF3F5 /* Setup.swift */,
+				6BBF4E2B26493CDB009BF3F5 /* Connection.swift */,
+				6BF1CAF32704F5F7007AFF3D /* Listener.swift */,
+				6BBF4E2E26493CE8009BF3F5 /* PathProcessors.swift */,
+				6BBF4E3126493CF2009BF3F5 /* ReceiveExtensions.swift */,
+				6BBF4E3426493D7A009BF3F5 /* Address.swift */,
+				6BBF4E3726493D94009BF3F5 /* Path.swift */,
+				6BBF4E3A26493DAC009BF3F5 /* Message.swift */,
+			);
+			path = SCION;
+			sourceTree = "<group>";
+		};
+		6BC2AF8625FB763400F05658 = {
+			isa = PBXGroup;
+			children = (
+				6B3F22D125FFA96900F26A2D /* SCIONTest */,
+				6BA1D64F2603E86C0069BDDF /* SCIONTest-macOS */,
+				6BDE2E8526D8F3E000941116 /* SCIONTest-macOSTests */,
+				6BC2AF9025FB763400F05658 /* Products */,
+				6BC2AFA325FB765400F05658 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BC2AF9025FB763400F05658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B3F22D025FFA96900F26A2D /* SCIONTest.app */,
+				6BA1D64E2603E86C0069BDDF /* SCIONTest-macOS.app */,
+				6BDE2E8426D8F3E000941116 /* SCIONTest-macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BC2AFA325FB765400F05658 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BDEAA93267BC760005464A3 /* _SCIONDarwinMacFat.a */,
+				6BCD990426714931003BB1B1 /* WebRTC.framework */,
+				6BBF4E59264ABC32009BF3F5 /* WebRTC.xcframework */,
+				6BBF4E422649C087009BF3F5 /* SCIONDarwin.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BDE2E8526D8F3E000941116 /* SCIONTest-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE2E8626D8F3E000941116 /* SCIONTest_macOSTests.swift */,
+				6BDE2E8826D8F3E000941116 /* Info.plist */,
+			);
+			path = "SCIONTest-macOSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B3F22CF25FFA96900F26A2D /* SCIONTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B3F22DC25FFA96B00F26A2D /* Build configuration list for PBXNativeTarget "SCIONTest" */;
+			buildPhases = (
+				6B3F22CC25FFA96900F26A2D /* Sources */,
+				6B3F22CD25FFA96900F26A2D /* Frameworks */,
+				6B3F22CE25FFA96900F26A2D /* Resources */,
+				6BBF4E4C2649C08F009BF3F5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCIONTest;
+			packageProductDependencies = (
+				6BC50C3A2652B0850004DB1A /* CombineExt */,
+			);
+			productName = SCIONTest;
+			productReference = 6B3F22D025FFA96900F26A2D /* SCIONTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BA1D64D2603E86C0069BDDF /* SCIONTest-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA1D65B2603E86C0069BDDF /* Build configuration list for PBXNativeTarget "SCIONTest-macOS" */;
+			buildPhases = (
+				6BC0C15C26652E2300CC414A /* ShellScript */,
+				6BA1D64A2603E86C0069BDDF /* Sources */,
+				6BA1D64B2603E86C0069BDDF /* Frameworks */,
+				6BA1D64C2603E86C0069BDDF /* Resources */,
+				6BBF4E472649C087009BF3F5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SCIONTest-macOS";
+			packageProductDependencies = (
+				6BC50C382652B07F0004DB1A /* CombineExt */,
+			);
+			productName = "SCIONTest-macOS";
+			productReference = 6BA1D64E2603E86C0069BDDF /* SCIONTest-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BDE2E8326D8F3E000941116 /* SCIONTest-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDE2E8B26D8F3E000941116 /* Build configuration list for PBXNativeTarget "SCIONTest-macOSTests" */;
+			buildPhases = (
+				6BDE2E8026D8F3E000941116 /* Sources */,
+				6BDE2E8126D8F3E000941116 /* Frameworks */,
+				6BDE2E8226D8F3E000941116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BDE2E8A26D8F3E000941116 /* PBXTargetDependency */,
+			);
+			name = "SCIONTest-macOSTests";
+			productName = "SCIONTest-macOSTests";
+			productReference = 6BDE2E8426D8F3E000941116 /* SCIONTest-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BC2AF8725FB763400F05658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6B3F22CF25FFA96900F26A2D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6BA1D64D2603E86C0069BDDF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6BDE2E8326D8F3E000941116 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6BA1D64D2603E86C0069BDDF;
+					};
+				};
+			};
+			buildConfigurationList = 6BC2AF8A25FB763400F05658 /* Build configuration list for PBXProject "SCIONTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BC2AF8625FB763400F05658;
+			packageReferences = (
+				6BC50C372652B07F0004DB1A /* XCRemoteSwiftPackageReference "CombineExt" */,
+			);
+			productRefGroup = 6BC2AF9025FB763400F05658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B3F22CF25FFA96900F26A2D /* SCIONTest */,
+				6BA1D64D2603E86C0069BDDF /* SCIONTest-macOS */,
+				6BDE2E8326D8F3E000941116 /* SCIONTest-macOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B3F22CE25FFA96900F26A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE7DC862704FACC00A91FD8 /* BigBuckBunny1.mp4 in Resources */,
+				6BC50BF5265014B70004DB1A /* sound-short.wav in Resources */,
+				6BE7DC882704FACC00A91FD8 /* Caminandes2.mp4 in Resources */,
+				6BE7DC8A2704FACC00A91FD8 /* BigBuckBunny2.mp4 in Resources */,
+				6B9732D226E2BD85004AB295 /* Caminandes1.mp4 in Resources */,
+				6B9732D526E2BD97004AB295 /* Caminandes3.mp4 in Resources */,
+				6BBE63B626DBF6A200B3A314 /* white.mov in Resources */,
+				6B3F234925FFD68A00F26A2D /* certs in Resources */,
+				6BC05BF12671607700E730DD /* sound.wav in Resources */,
+				6B3F22DA25FFA96B00F26A2D /* Preview Assets.xcassets in Resources */,
+				6B3F22D725FFA96B00F26A2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA1D64C2603E86C0069BDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE7DC872704FACC00A91FD8 /* BigBuckBunny1.mp4 in Resources */,
+				6BC50BF6265014B70004DB1A /* sound-short.wav in Resources */,
+				6BE7DC892704FACC00A91FD8 /* Caminandes2.mp4 in Resources */,
+				6BE7DC8B2704FACC00A91FD8 /* BigBuckBunny2.mp4 in Resources */,
+				6B9732D326E2BD85004AB295 /* Caminandes1.mp4 in Resources */,
+				6B9732D626E2BD97004AB295 /* Caminandes3.mp4 in Resources */,
+				6BBE63B726DBF6A200B3A314 /* white.mov in Resources */,
+				6BA1D6662603E8900069BDDF /* certs in Resources */,
+				6BC05BF22671607700E730DD /* sound.wav in Resources */,
+				6BA1D6582603E86C0069BDDF /* Preview Assets.xcassets in Resources */,
+				6BA1D6552603E86C0069BDDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDE2E8226D8F3E000941116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BC0C15C26652E2300CC414A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "killall SCIONText-macOS || true\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B3F22CC25FFA96900F26A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B05B2B12615CF33008B0280 /* CombineExtensions.swift in Sources */,
+				6BD89A3126D8F73A00CEB22A /* Tests.swift in Sources */,
+				6BBF4E2F26493CE8009BF3F5 /* PathProcessors.swift in Sources */,
+				6B05B2912611F50E008B0280 /* VideoChatSesssion.swift in Sources */,
+				6BA1D68A2604E3E50069BDDF /* NativeWebSocket.swift in Sources */,
+				6BA1D69E2604E4840069BDDF /* SessionDescription.swift in Sources */,
+				6BBF4E3826493D94009BF3F5 /* Path.swift in Sources */,
+				6B05B2A326147879008B0280 /* SCIONRelay.swift in Sources */,
+				6BBF4E3526493D7A009BF3F5 /* Address.swift in Sources */,
+				6B05B29F26147871008B0280 /* UDPRelay.swift in Sources */,
+				6BA1D6862604E2EB0069BDDF /* SignalingClient.swift in Sources */,
+				6BBF4E2A26493C0F009BF3F5 /* Setup.swift in Sources */,
+				6BD4E14926380F4600C9D019 /* SCION.swift in Sources */,
+				6BA1D6942604E4590069BDDF /* SignalingMessage.swift in Sources */,
+				6B3F234125FFD3D300F26A2D /* ChatViews.swift in Sources */,
+				6BF1CAF42704F5F7007AFF3D /* Listener.swift in Sources */,
+				6BA1D68E2604E4250069BDDF /* WebSocketProvider.swift in Sources */,
+				6BBF4E2C26493CDB009BF3F5 /* Connection.swift in Sources */,
+				6BA1D6492603E80E0069BDDF /* VideoCallView.swift in Sources */,
+				6B9536BE26245C0800336076 /* SCIONLabSupport.swift in Sources */,
+				6BA1D69C2604E4840069BDDF /* RTCStates.swift in Sources */,
+				6BB83A2C2632D7C00018382E /* Options.swift in Sources */,
+				6BDEAA8E267BBD48005464A3 /* CallQualityMonitoringReceiveExtension.swift in Sources */,
+				6B3F234B25FFED3D00F26A2D /* ContentView.swift in Sources */,
+				6B05B2AC2614A35B008B0280 /* NetworkExtensions.swift in Sources */,
+				6BB83A1E26304E860018382E /* WebRTCStats.swift in Sources */,
+				6BC31E90265681860085D2AC /* SCIONSetupView.swift in Sources */,
+				6B3F22D325FFA96900F26A2D /* SCIONTestApp.swift in Sources */,
+				6B1F14062680B86300D54668 /* WebRTCVideoView.swift in Sources */,
+				6BBF4E3226493CF2009BF3F5 /* ReceiveExtensions.swift in Sources */,
+				6B9167D726261D7A0046B1E3 /* ChatModel.swift in Sources */,
+				6B1F140E2680CBEE00D54668 /* rtcplib.m in Sources */,
+				6BBF4E6A264D5F98009BF3F5 /* CallQualityMonitor.swift in Sources */,
+				6B05B2A7261478B9008B0280 /* Relay.swift in Sources */,
+				6BBF4E3B26493DAC009BF3F5 /* Message.swift in Sources */,
+				6BA1D6A02604E4840069BDDF /* IceCandidate.swift in Sources */,
+				6BA903DD26065D0E00C18FA0 /* WebRTCClient.swift in Sources */,
+				6B1F14102680EDE500D54668 /* VideoCallStatsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA1D64A2603E86C0069BDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B05B2B22615CF33008B0280 /* CombineExtensions.swift in Sources */,
+				6BD89A3226D8F73A00CEB22A /* Tests.swift in Sources */,
+				6B05B2932611F6F6008B0280 /* VideoChatSesssion.swift in Sources */,
+				6BA1D68B2604E3E50069BDDF /* NativeWebSocket.swift in Sources */,
+				6BA1D69F2604E4840069BDDF /* SessionDescription.swift in Sources */,
+				6B1F14072680B86300D54668 /* WebRTCVideoView.swift in Sources */,
+				6BBF4E3C26493DAC009BF3F5 /* Message.swift in Sources */,
+				6B05B2A426147879008B0280 /* SCIONRelay.swift in Sources */,
+				6B05B2A026147871008B0280 /* UDPRelay.swift in Sources */,
+				6BA1D6872604E2EB0069BDDF /* SignalingClient.swift in Sources */,
+				6B1F140F2680CBEE00D54668 /* rtcplib.m in Sources */,
+				6BD4E14C26380F4600C9D019 /* SCION.swift in Sources */,
+				6BA1D6952604E4590069BDDF /* SignalingMessage.swift in Sources */,
+				6BA1D6632603E88D0069BDDF /* VideoCallView.swift in Sources */,
+				6BA1D68F2604E4250069BDDF /* WebSocketProvider.swift in Sources */,
+				6BF1CAF52704F629007AFF3D /* Listener.swift in Sources */,
+				6BA1D6602603E88D0069BDDF /* ChatViews.swift in Sources */,
+				6BBF4E3D26493E36009BF3F5 /* Setup.swift in Sources */,
+				6B9536BF26245C0800336076 /* SCIONLabSupport.swift in Sources */,
+				6BA1D69D2604E4840069BDDF /* RTCStates.swift in Sources */,
+				6BB83A2D2632D7C00018382E /* Options.swift in Sources */,
+				6BA1D6622603E88D0069BDDF /* ContentView.swift in Sources */,
+				6B05B2AD2614A35B008B0280 /* NetworkExtensions.swift in Sources */,
+				6BB83A1F26304E860018382E /* WebRTCStats.swift in Sources */,
+				6BBF4E3626493D7A009BF3F5 /* Address.swift in Sources */,
+				6BA1D6642603E88D0069BDDF /* SCIONTestApp.swift in Sources */,
+				6BBF4E2D26493CDB009BF3F5 /* Connection.swift in Sources */,
+				6BDEAA8F267BBD48005464A3 /* CallQualityMonitoringReceiveExtension.swift in Sources */,
+				6BDEAA6F26777090005464A3 /* VideoCallStatsView.swift in Sources */,
+				6BC31E91265681860085D2AC /* SCIONSetupView.swift in Sources */,
+				6B9167D826261D7A0046B1E3 /* ChatModel.swift in Sources */,
+				6BBF4E3926493D94009BF3F5 /* Path.swift in Sources */,
+				6B05B2A8261478B9008B0280 /* Relay.swift in Sources */,
+				6BBF4E6B264D5F9C009BF3F5 /* CallQualityMonitor.swift in Sources */,
+				6BA1D6A12604E4840069BDDF /* IceCandidate.swift in Sources */,
+				6BA903DE26065D0E00C18FA0 /* WebRTCClient.swift in Sources */,
+				6BBF4E3026493CE8009BF3F5 /* PathProcessors.swift in Sources */,
+				6BBF4E3326493CF2009BF3F5 /* ReceiveExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDE2E8026D8F3E000941116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDE2E8726D8F3E000941116 /* SCIONTest_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BDE2E8A26D8F3E000941116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BA1D64D2603E86C0069BDDF /* SCIONTest-macOS */;
+			targetProxy = 6BDE2E8926D8F3E000941116 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B3F22DD25FFA96B00F26A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SCIONTest/Preview Content\"";
+				DEVELOPMENT_TEAM = VASVVWP22W;
+				ENABLE_BITCODE = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor\"/**",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor\"/**",
+				);
+				INFOPLIST_FILE = SCIONTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor\"/**",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonasgessner.SCIONTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SCIONTest/SCIONTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B3F22DE25FFA96B00F26A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SCIONTest/Preview Content\"";
+				DEVELOPMENT_TEAM = VASVVWP22W;
+				ENABLE_BITCODE = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor\"/**",
+				);
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor\"/**",
+				);
+				INFOPLIST_FILE = SCIONTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor\"/**",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonasgessner.SCIONTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SCIONTest/SCIONTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BA1D65C2603E86C0069BDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SCIONTest-macOS/SCIONTest_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SCIONTest-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Vendor/SCIONDarwin.xcframework/**",
+					"$(PROJECT_DIR)/Vendor/WebRTC.xcframework/macos-arm64_x86_64/**",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Vendor/WebRTC.xcframework/macos-arm64_x86_64/**",
+					"$(PROJECT_DIR)/Vendor/SCIONDarwin.xcframework/**",
+				);
+				INFOPLIST_FILE = "SCIONTest-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor\"/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonasgessner.SCIONTest-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SCIONTest/SCIONTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6BA1D65D2603E86C0069BDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SCIONTest-macOS/SCIONTest_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SCIONTest-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Vendor/SCIONDarwin.xcframework/**",
+					"$(PROJECT_DIR)/Vendor/WebRTC.xcframework/macos-arm64_x86_64/**",
+				);
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Vendor/WebRTC.xcframework/macos-arm64_x86_64/**",
+					"$(PROJECT_DIR)/Vendor/SCIONDarwin.xcframework/**",
+				);
+				INFOPLIST_FILE = "SCIONTest-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor\"/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonasgessner.SCIONTest-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SCIONTest/SCIONTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6BC2AF9D25FB763500F05658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG HAS_SCION";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BC2AF9E25FB763500F05658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = HAS_SCION;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6BDE2E8C26D8F3E000941116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VASVVWP22W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Vendor/SCIONDarwin.xcframework/**",
+					"$(PROJECT_DIR)/Vendor/WebRTC.xcframework/macos-arm64_x86_64/**",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Vendor/WebRTC.xcframework/macos-arm64_x86_64/**",
+					"$(PROJECT_DIR)/Vendor/SCIONDarwin.xcframework/**",
+				);
+				INFOPLIST_FILE = "SCIONTest-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Vendor\"/**";
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonasgessner.SCIONTest-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCIONTest-macOS.app/Contents/MacOS/SCIONTest-macOS";
+			};
+			name = Debug;
+		};
+		6BDE2E8D26D8F3E000941116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VASVVWP22W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Vendor/SCIONDarwin.xcframework/**",
+					"$(PROJECT_DIR)/Vendor/WebRTC.xcframework/macos-arm64_x86_64/**",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Vendor/WebRTC.xcframework/macos-arm64_x86_64/**",
+					"$(PROJECT_DIR)/Vendor/SCIONDarwin.xcframework/**",
+				);
+				INFOPLIST_FILE = "SCIONTest-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Vendor\"/**";
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonasgessner.SCIONTest-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCIONTest-macOS.app/Contents/MacOS/SCIONTest-macOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B3F22DC25FFA96B00F26A2D /* Build configuration list for PBXNativeTarget "SCIONTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3F22DD25FFA96B00F26A2D /* Debug */,
+				6B3F22DE25FFA96B00F26A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA1D65B2603E86C0069BDDF /* Build configuration list for PBXNativeTarget "SCIONTest-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA1D65C2603E86C0069BDDF /* Debug */,
+				6BA1D65D2603E86C0069BDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC2AF8A25FB763400F05658 /* Build configuration list for PBXProject "SCIONTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC2AF9D25FB763500F05658 /* Debug */,
+				6BC2AF9E25FB763500F05658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDE2E8B26D8F3E000941116 /* Build configuration list for PBXNativeTarget "SCIONTest-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDE2E8C26D8F3E000941116 /* Debug */,
+				6BDE2E8D26D8F3E000941116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6BC50C372652B07F0004DB1A /* XCRemoteSwiftPackageReference "CombineExt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineExt";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6BC50C382652B07F0004DB1A /* CombineExt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BC50C372652B07F0004DB1A /* XCRemoteSwiftPackageReference "CombineExt" */;
+			productName = CombineExt;
+		};
+		6BC50C3A2652B0850004DB1A /* CombineExt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BC50C372652B07F0004DB1A /* XCRemoteSwiftPackageReference "CombineExt" */;
+			productName = CombineExt;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6BC2AF8725FB763400F05658 /* Project object */;
+}

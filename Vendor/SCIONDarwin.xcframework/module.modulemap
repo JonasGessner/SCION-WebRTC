@@ -1,0 +1,5 @@
+module SCIONDarwin {
+  umbrella header "ios-arm64/Headers/_SCIONDarwinIOS.h"
+  export *
+  module * { export * }
+}
